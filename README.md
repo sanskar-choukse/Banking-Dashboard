@@ -33,4 +33,4 @@ Find Patterns: Smart charts help you spot trends in loans and deposits by client
 Better Decisions: Bank managers and staff can use these insights to improve services, reduce risks, and increase business.
 
 📷 Dashboard Preview
-![Banking Dashboard](https://github.com/sanskar-choukse/Banking-Dashboard/blob/main/Banking%20Dashboard.pdf)
+![Banking Dashboard](https://github.com/sanskar-choukse/Banking-Dashboard/blob/main/Banking%20Dashboard.png)
