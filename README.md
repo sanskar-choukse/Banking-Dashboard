@@ -28,5 +28,9 @@ Explore Data: Review the boxes and charts to spot trends—like which income ban
 
 Why Use This Dashboard?
 Quick Insights: See the most important numbers instantly—all in one place.
+
 Find Patterns: Smart charts help you spot trends in loans and deposits by client type.
 Better Decisions: Bank managers and staff can use these insights to improve services, reduce risks, and increase business.
+
+📷 Dashboard Preview
+![Banking Dashboard](https://github.com/sanskar-choukse/Banking-Dashboard/blob/main/Banking%20Dashboard.pdf)
