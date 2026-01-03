@@ -1,36 +1,82 @@
-# Banking-Dashboard
-This banking dashboard shows key information about the bank’s customers, loans, deposits, and accounts. It helps users quickly understand the bank’s activities and make better decisions.
+🏦 Banking Domain Analytics Dashboard | Power BI
+📌 Project Overview
+Interactive Power BI dashboard for banking risk analytics
+Focused on loan assessment, deposits, and client engagement
+Helps banks minimize financial risk while lending
 
-Main Features
-*Home Page:
-Shows the total number of clients, the total loan amount, and the total deposits.
-Quick snapshots of business lending, checking, and saving accounts for easy reference.
-Lets you filter data by year (e.g., 2013–2021) and by gender.
+🎯 Problem Statement
+Understand risk analytics in banking & financial services
+Analyze client profiles to decide loan approval or rejection
+Reduce chances of loan default and financial loss
 
-Loan Analysis:
-Shows the total loan amount given out, bank loan amounts, business lending, and credit card balances for the selected group.
-Includes charts that break down loans by client’s occupation, income level, and nationality.
-Helps identify which types of clients have more loans or higher balances.
+✅ Solution
+Developed an interactive dashboard using Power BI
+Visualizes customer profile, loan amounts, deposits, and fees
+Supports data-driven decision making for banks
 
-Deposit Analysis:
-Displays the total deposit amount along with savings and checking account details.
-Presents charts and graphs that show deposits by client group, occupation, and income band.
-Useful for seeing where most of the bank’s deposits come from.
+📂 Dataset Description
+Banking dataset with multiple interconnected tables
+Tables used:
+Clients-Banking
+Banking Relationship
+Gender
+Investment Advisor
+Period
+Tables connected using Primary & Foreign Keys
 
-Summary Section:
-Gives a full picture for the chosen year and client group, showing side-by-side figures for total clients, loans, deposits, and each account type.
-Makes it easy to compare and track growth or changes over time.
+🧹 Data Cleaning & Transformation
+Created Engagement Timeframe column to track client duration
+Created Engagement Days using joining date
+Created Income Band:
+Low: Income < 100000
+Mid: Income < 300000
+Created Processing Fees based on Fee Structure
 
-How to Use
-Navigate: Click the tabs at the top to move between Home, Loan Analysis, Deposit Analysis, and Summary.
-Filter Results: Select a year, gender, or banking relationship to focus on specific client groups.
-Explore Data: Review the boxes and charts to spot trends—like which income bands take the most loans or make the largest deposits.
+🧠 DAX Functions Used
+SUM – Total values calculation
+DISTINCTCOUNT – Unique client count
+SUMX – Row-level calculations
+SWITCH – Conditional logic
+DATEDIFF – Engagement duration calculation
 
-Why Use This Dashboard?
-Quick Insights: See the most important numbers instantly—all in one place.
+📊 Key KPIs
+Total Clients
+Total Loan Amount
+Bank Loan
+Business Lending
+Total Deposits
+Total Fees
+Bank Deposits
+Savings Account Amount
+Checking Account Amount
+Foreign Currency Account
+Credit Cards Balance
+Client Engagement Length
 
-Find Patterns: Smart charts help you spot trends in loans and deposits by client type.
-Better Decisions: Bank managers and staff can use these insights to improve services, reduce risks, and increase business.
+📈 Dashboard Pages
+Home Dashboard – High-level banking KPIs
+Loan Analysis – Loan distribution & risk insights
+Deposit Analysis – Account-wise deposit analysis
+Summary Dashboard – Overall banking performance
+
+🚀 Business Impact & Insights
+Helps banks identify high-risk & low-risk customers
+Improves loan approval decisions
+Tracks customer engagement and financial behavior
+Supports strategic planning and risk management
 
 📷 Dashboard Preview
-![Banking Dashboard](https://github.com/sanskar-choukse/Banking-Dashboard/blob/main/Banking%20Dashboard.png)
+## 📄 Dashboard Report
+[Click here to view the Banking Dashboard PDF](https://github.com/sanskar-choukse/Banking-Dashboard/blob/main/Banking%20Dashboard.pdf)
+
+
+📌 Conclusion
+Demonstrates end-to-end Power BI banking analytics
+Combines data modeling, DAX, and interactive visuals
+Useful for banking risk analysis & decision support
+
+🔮 Future Scope
+Identify investors with highest loan exposure
+Analyze bank-wise and nationality-wise loan trends
+Support banks in improving customer acquisition strategies
+Extend analysis with predictive risk modeling
