@@ -45,6 +45,4 @@ Future enhancements could include deeper customer segmentation, predictive risk 
 
 ## 📷 Dashboard Preview
 
-## 📄 Dashboard Report
-
 [Click here to view the Banking Dashboard PDF](https://github.com/sanskar-choukse/Banking-Dashboard/blob/main/Banking%20Dashboard.pdf)
